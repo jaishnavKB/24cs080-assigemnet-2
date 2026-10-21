@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration</title>
+
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h2>Student Registration Form</h2>
+
+    <form id="registrationForm">
+
+        <label>Student Name:</label>
+        <input type="text" id="name">
+        <p id="nameError"></p>
+
+        <label>Roll Number:</label>
+        <input type="text" id="rollno">
+        <p id="rollnoError"></p>
+
+        <label>Email:</label>
+        <input type="email" id="email">
+        <p id="emailError"></p>
+
+        <label>Course:</label>
+        <select id="course">
+            <option value="">Select Course</option>
+            <option value="CSE">CSE</option>
+            <option value="ECE">ECE</option>
+            <option value="EEE">EEE</option>
+            <option value="IT">IT</option>
+        </select>
+        <p id="courseError"></p>
+
+        <label>Password:</label>
+        <input type="password" id="password">
+        <p id="passwordError"></p>
+
+        <label>Upload File:</label>
+        <input type="file" id="file">
+
+        <button type="submit">Register</button>
+
+    </form>
+
+    <!-- External JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+</html>
